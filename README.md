@@ -1,5 +1,6 @@
 # 一键安装网易云解锁
 ## 原项目地址：https://github.com/nondanee/UnblockNeteaseMusic
+## 安装完成后，默认解锁HTTP代理地址是: ip:2333
 
 ## centos安装
 ```
