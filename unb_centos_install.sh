@@ -5,3 +5,4 @@ git clone https://github.com/nondanee/UnblockNeteaseMusic.git
 mv UnblockNeteaseMusic /usr
 wget https://raw.githubusercontent.com/NewCheung/OneKey_Unblocknetease/master/unb.service
 mv unb.service /lib/systemd/system
+rm -r unb_centos_install.sh
