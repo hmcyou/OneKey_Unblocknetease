@@ -1,0 +1,13 @@
+[Unit]
+Description=unb
+After=network-online.target
+Wants=network-online.target systemd-networkd-wait-online.service
+
+[Service]
+Type=simple
+User=root
+DynamicUser=true
+ExecStart=/usr/bin/node /root/UnblockNeteaseMusic/app.js -p 33550
+
+[Install]
+WantedBy=multi-user.target
