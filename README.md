@@ -12,10 +12,9 @@ wget https://raw.githubusercontent.com/NewCheung/OneKey_Unblocknetease/master/un
 wget https://raw.githubusercontent.com/NewCheung/OneKey_Unblocknetease/master/unb_deb_install.sh && chmod +x unb_deb_install.sh && ./unb_deb_install.sh && systemctl start unb && systemctl status unb
 ```
 
-## 注：需要改换端口请编辑 ```/lib/systemd/system/unb.service``` 里的文件 -p 后面更改你需要的端口
+## 注：需要改换端口请编辑 ```/lib/systemd/system/unb.service``` 文件里的 -p 后面更改你需要的端口后执行```systemctl daemon-reload```再重启```systemctl restart unb``
+
 
 ### 添加开机自启：```systemctl enable unb ```
-
 ### 去除开机自启：```systemctl disable unb```
-
 ### 重启：```systemctl restart unb```
