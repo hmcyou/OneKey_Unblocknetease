@@ -3,12 +3,12 @@
 ## 安装完成后，默认解锁HTTP代理地址是: ip:1234
 # 一、安装
 ## centos安装
-```
+``` shell
 wget https://raw.githubusercontent.com/NewCheung/OneKey_Unblocknetease/master/unb_centos_install.sh && chmod +x unb_centos_install.sh && ./unb_centos_install.sh && systemctl start unb && systemctl status unb
 ```
 
 ## deb系(debian/ubuntu)安装
-```
+``` shell
 wget https://raw.githubusercontent.com/NewCheung/OneKey_Unblocknetease/master/unb_deb_install.sh && chmod +x unb_deb_install.sh && ./unb_deb_install.sh && systemctl start unb && systemctl status unb
 ```
 # 二、更改端口
